@@ -2,7 +2,7 @@ import { useGetUsers } from "./hooks/useGetUsers";
 import UserCard from "../Atoms/UserCard";
 const Users = () => {
     const { users, loading, error} = useGetUsers();
-    console.log('users...', users);
+    console.log('users...', users, loading,error);
     return(
         <div>
             {loading && <h2>Loading users...</h2>}
