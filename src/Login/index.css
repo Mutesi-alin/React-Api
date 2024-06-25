@@ -1,20 +1,41 @@
-form{
-    width: 60%;
-    border: solid 1px;
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6b4f4f;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
     padding: 10px;
-}
-input{
-    width: 95%;
-    margin: 2% 0;
-    padding: 16px 5px;
-}
-button{
-    padding: 6px 10px;
-    width: 97%;
+    margin-bottom: 15px;
+    border: 1px solid #7dc23d;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input::placeholder {
+    color: #ddaaaa;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
     border: none;
-    background-color: aqua;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
-    color: aliceblue;
-
-}
+    transition: background-color 0.3s ease;
+  }
+  
+ 

@@ -1,6 +1,7 @@
 
-.photos{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
+#photos{
+   column-count: 5;
+   text-align: center;
+
+
 }
